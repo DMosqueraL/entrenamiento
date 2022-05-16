@@ -8,11 +8,8 @@ import co.com.sofkau.entrenamiento.curso.values.CursoId;
 import co.com.sofkau.entrenamiento.curso.values.Descripcion;
 import co.com.sofkau.entrenamiento.curso.values.Nombre;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CrearCursoUseCaseTest {
 
