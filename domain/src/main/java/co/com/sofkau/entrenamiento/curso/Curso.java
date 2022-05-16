@@ -41,8 +41,8 @@ public class Curso extends AggregateEvent<CursoId> {
         appendChange(new MentoriaCreada(mentoriaId, nombre, fecha)).apply();
     }
 
-    public void agregarDirectrizDeMentoria(MentoriaId mentoriaId, Directiz directiz){
-        appendChange(new DirectrizAgregadaAMentoria(mentoriaId, directiz)).apply();
+    public void agregarDirectrizAMentoria(MentoriaId mentoriaId, Directriz directriz){
+        appendChange(new DirectrizAgregadaAMentoria(mentoriaId, directriz)).apply();
     }
 
     public Nombre nombre() {
